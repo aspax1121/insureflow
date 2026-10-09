@@ -12,7 +12,12 @@ import streamlit as st
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from frontend.customer_portal import render_customer
 
-API = 'http://127.0.0.1:8000'
+import os
+
+API = os.getenv(
+    "INSUREFLOW_API_URL",
+    "http://127.0.0.1:8000"
+).rstrip("/")
 st.set_page_config(page_title='InsureFlow | AegisSure', page_icon='🛡️', layout='wide')
 st.markdown('''<style>
 .block-container {padding-top:2rem; max-width:1450px;}
