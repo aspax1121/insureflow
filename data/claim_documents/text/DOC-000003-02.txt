@@ -1,0 +1,9 @@
+SYNTHETIC ACADEMIC DOCUMENT — NOT A REAL INSURANCE RECORD
+Document: DOC-000003-02
+Type: hospital_bill
+Claim: CLM-000003
+Policy: POL-HLT-000003
+Incident date: 2026-09-20
+Event: hospitalization
+Claimed amount INR: 20000
+Supported expense INR: 20000

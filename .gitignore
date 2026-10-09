@@ -1,0 +1,50 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+# Local runtime data
+runtime/
+*.sqlite
+*.sqlite3
+*.db
+# Frontend dependencies/build outputs
+node_modules/
+dist/
+# Machine-specific files
+.DS_Store
+.vscode/
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Runtime-generated files
+runtime/
+
+# Local IDE settings
+.idea/

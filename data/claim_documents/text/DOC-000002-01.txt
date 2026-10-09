@@ -1,0 +1,8 @@
+SYNTHETIC ACADEMIC DOCUMENT — NOT A REAL INSURANCE RECORD
+Document: DOC-000002-01
+Type: claim_form
+Claim: CLM-000002
+Policy: POL-BIK-000002
+Incident date: 2026-09-20
+Event: collision
+Claimed amount INR: 7500

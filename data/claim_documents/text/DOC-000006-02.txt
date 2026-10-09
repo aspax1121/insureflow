@@ -1,0 +1,9 @@
+SYNTHETIC ACADEMIC DOCUMENT — NOT A REAL INSURANCE RECORD
+Document: DOC-000006-02
+Type: damage_assessment
+Claim: CLM-000006
+Policy: POL-HOM-000006
+Incident date: 2026-09-20
+Event: fire_damage
+Claimed amount INR: 37500
+Supported expense INR: 37500

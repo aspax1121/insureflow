@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "dataset_id": "INSUREFLOW-DEMO-V1",
+  "as_of_date": "2026-10-01",
+  "records": [
+    {
+      "claim_id": "CLM-000001",
+      "customer_id": "CUST-000001",
+      "policy_id": "POL-MTR-000001",
+      "insurance_line": "Motor – Car",
+      "incident_id": "INC-DEMO-000001",
+      "incident_date": "2026-09-20",
+      "submitted_date": "2026-10-01",
+      "event_type": "collision",
+      "claimed_amount_inr": 25000,
+      "currency": "INR",
+      "synthetic": true
+    },
+    {
+      "claim_id": "CLM-000002",
+      "customer_id": "CUST-000002",
+      "policy_id": "POL-BIK-000002",
+      "insurance_line": "Motor – Bike",
+      "incident_id": "INC-DEMO-000002",
+      "incident_date": "2026-09-20",
+      "submitted_date": "2026-10-01",
+      "event_type": "collision",
+      "claimed_amount_inr": 7500,
+      "currency": "INR",
+      "synthetic": true
+    },
+    {
+      "claim_id": "CLM-000003",
+      "customer_id": "CUST-000003",
+      "policy_id": "POL-HLT-000003",
+      "insurance_line": "Health",
+      "incident_id": "INC-DEMO-000003",
+      "incident_date": "2026-09-20",
+      "submitted_date": "2026-10-01",
+      "event_type": "hospitalization",
+      "claimed_amount_inr": 20000,
+      "currency": "INR",
+      "synthetic": true
+    },
+    {
+      "claim_id": "CLM-000004",
+      "customer_id": "CUST-000004",
+      "policy_id": "POL-LIF-000004",
+      "insurance_line": "Life",
+      "incident_id": "INC-DEMO-000004",
+      "incident_date": "2026-09-20",
+      "submitted_date": "2026-10-01",
+      "event_type": "insured_death",
+      "claimed_amount_inr": 1000000,
+      "currency": "INR",
+      "synthetic": true
+    },
+    {
+      "claim_id": "CLM-000005",
+      "customer_id": "CUST-000005",
+      "policy_id": "POL-TRV-000005",
+      "insurance_line": "Travel",
+      "incident_id": "INC-DEMO-000005",
+      "incident_date": "2026-09-20",
+      "submitted_date": "2026-10-01",
+      "event_type": "baggage_loss",
+      "claimed_amount_inr": 10000,
+      "currency": "INR",
+      "synthetic": true
+    },
+    {
+      "claim_id": "CLM-000006",
+      "customer_id": "CUST-000006",
+      "policy_id": "POL-HOM-000006",
+      "insurance_line": "Home/Property",
+      "incident_id": "INC-DEMO-000006",
+      "incident_date": "2026-09-20",
+      "submitted_date": "2026-10-01",
+      "event_type": "fire_damage",
+      "claimed_amount_inr": 37500,
+      "currency": "INR",
+      "synthetic": true
+    },
+    {
+      "claim_id": "CLM-000007",
+      "customer_id": "CUST-000007",
+      "policy_id": "POL-PAC-000007",
+      "insurance_line": "Personal Accident",
+      "incident_id": "INC-DEMO-000007",
+      "incident_date": "2026-09-20",
+      "submitted_date": "2026-10-01",
+      "event_type": "accidental_fracture",
+      "claimed_amount_inr": 50000,
+      "currency": "INR",
+      "synthetic": true
+    }
+  ]
+}

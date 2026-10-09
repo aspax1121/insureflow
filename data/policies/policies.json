@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "dataset_id": "INSUREFLOW-DEMO-V1",
+  "as_of_date": "2026-10-01",
+  "records": [
+    {
+      "policy_id": "POL-MTR-000001",
+      "customer_id": "CUST-000001",
+      "insurance_line": "Motor – Car",
+      "rule_id": "RULE-MTR-V1",
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "premium_paid": true,
+      "currency": "INR",
+      "synthetic": true
+    },
+    {
+      "policy_id": "POL-BIK-000002",
+      "customer_id": "CUST-000002",
+      "insurance_line": "Motor – Bike",
+      "rule_id": "RULE-BIK-V1",
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "premium_paid": true,
+      "currency": "INR",
+      "synthetic": true
+    },
+    {
+      "policy_id": "POL-HLT-000003",
+      "customer_id": "CUST-000003",
+      "insurance_line": "Health",
+      "rule_id": "RULE-HLT-V1",
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "premium_paid": true,
+      "currency": "INR",
+      "synthetic": true
+    },
+    {
+      "policy_id": "POL-LIF-000004",
+      "customer_id": "CUST-000004",
+      "insurance_line": "Life",
+      "rule_id": "RULE-LIF-V1",
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "premium_paid": true,
+      "currency": "INR",
+      "synthetic": true
+    },
+    {
+      "policy_id": "POL-TRV-000005",
+      "customer_id": "CUST-000005",
+      "insurance_line": "Travel",
+      "rule_id": "RULE-TRV-V1",
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "premium_paid": true,
+      "currency": "INR",
+      "synthetic": true
+    },
+    {
+      "policy_id": "POL-HOM-000006",
+      "customer_id": "CUST-000006",
+      "insurance_line": "Home/Property",
+      "rule_id": "RULE-HOM-V1",
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "premium_paid": true,
+      "currency": "INR",
+      "synthetic": true
+    },
+    {
+      "policy_id": "POL-PAC-000007",
+      "customer_id": "CUST-000007",
+      "insurance_line": "Personal Accident",
+      "rule_id": "RULE-PAC-V1",
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "premium_paid": true,
+      "currency": "INR",
+      "synthetic": true
+    }
+  ]
+}

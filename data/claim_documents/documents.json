@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "dataset_id": "INSUREFLOW-DEMO-V1",
+  "as_of_date": "2026-10-01",
+  "records": [
+    {
+      "document_id": "DOC-000001-01",
+      "claim_id": "CLM-000001",
+      "document_type": "claim_form",
+      "path": "data/claim_documents/text/DOC-000001-01.txt",
+      "sha256": "fb07cc77f860b1fca09f5263eba6f057dc30d4e31287575463abe773d1eec6b6",
+      "verification_status": "unverified",
+      "synthetic": true
+    },
+    {
+      "document_id": "DOC-000001-02",
+      "claim_id": "CLM-000001",
+      "document_type": "repair_estimate",
+      "path": "data/claim_documents/text/DOC-000001-02.txt",
+      "sha256": "918d51f0c9b11202c84fef50a48d8b58c8d62617da08cfd0afb443765b878099",
+      "verification_status": "unverified",
+      "synthetic": true
+    },
+    {
+      "document_id": "DOC-000002-01",
+      "claim_id": "CLM-000002",
+      "document_type": "claim_form",
+      "path": "data/claim_documents/text/DOC-000002-01.txt",
+      "sha256": "6ba722bf0c48ae9110e9349fe1c11ad6867d44f1e4b797028c75e1e1b2218e4a",
+      "verification_status": "unverified",
+      "synthetic": true
+    },
+    {
+      "document_id": "DOC-000002-02",
+      "claim_id": "CLM-000002",
+      "document_type": "repair_estimate",
+      "path": "data/claim_documents/text/DOC-000002-02.txt",
+      "sha256": "6ceb6ff5d71150d79f4dce46f6ffaf37a4cb2b275a22217bedf7c6ef2cf17b9f",
+      "verification_status": "unverified",
+      "synthetic": true
+    },
+    {
+      "document_id": "DOC-000003-01",
+      "claim_id": "CLM-000003",
+      "document_type": "claim_form",
+      "path": "data/claim_documents/text/DOC-000003-01.txt",
+      "sha256": "fd23191b0537f4e863536756b1df2e4f8845f5129e0398b86d37600af545855b",
+      "verification_status": "unverified",
+      "synthetic": true
+    },
+    {
+      "document_id": "DOC-000003-02",
+      "claim_id": "CLM-000003",
+      "document_type": "hospital_bill",
+      "path": "data/claim_documents/text/DOC-000003-02.txt",
+      "sha256": "60094d4b40d553307fddcd34863013757d4852c628a925d36d6c841e02a403b1",
+      "verification_status": "unverified",
+      "synthetic": true
+    },
+    {
+      "document_id": "DOC-000004-01",
+      "claim_id": "CLM-000004",
+      "document_type": "claim_form",
+      "path": "data/claim_documents/text/DOC-000004-01.txt",
+      "sha256": "962cfc09e7fde6496ba230927c00cb25bd03ecd597845a9b2a9f78015f2422cd",
+      "verification_status": "unverified",
+      "synthetic": true
+    },
+    {
+      "document_id": "DOC-000004-02",
+      "claim_id": "CLM-000004",
+      "document_type": "death_certificate",
+      "path": "data/claim_documents/text/DOC-000004-02.txt",
+      "sha256": "1c685b9ea2f5fc636343f37198d360c97ec972ff5d11a222c9f6fb9bb292447b",
+      "verification_status": "unverified",
+      "synthetic": true
+    },
+    {
+      "document_id": "DOC-000005-01",
+      "claim_id": "CLM-000005",
+      "document_type": "claim_form",
+      "path": "data/claim_documents/text/DOC-000005-01.txt",
+      "sha256": "60b79ec49de6f482879ef7fe4fdb30b7c0bdeae58082e3f1497f5dae63db33da",
+      "verification_status": "unverified",
+      "synthetic": true
+    },
+    {
+      "document_id": "DOC-000005-02",
+      "claim_id": "CLM-000005",
+      "document_type": "carrier_loss_report",
+      "path": "data/claim_documents/text/DOC-000005-02.txt",
+      "sha256": "1fd404d4afe0bcdad5b9a9886641422895e928ad8b7d1d4cad7c9e5ac8b551f9",
+      "verification_status": "unverified",
+      "synthetic": true
+    },
+    {
+      "document_id": "DOC-000006-01",
+      "claim_id": "CLM-000006",
+      "document_type": "claim_form",
+      "path": "data/claim_documents/text/DOC-000006-01.txt",
+      "sha256": "3cbdceeaef59c0a0bebdf07e4a157b99ec2ada77e3ec0ceab61bcc07d25da6b2",
+      "verification_status": "unverified",
+      "synthetic": true
+    },
+    {
+      "document_id": "DOC-000006-02",
+      "claim_id": "CLM-000006",
+      "document_type": "damage_assessment",
+      "path": "data/claim_documents/text/DOC-000006-02.txt",
+      "sha256": "354fab2354c22c0513aea4dcedc652c2776365a226469499237751d03b14e60c",
+      "verification_status": "unverified",
+      "synthetic": true
+    },
+    {
+      "document_id": "DOC-000007-01",
+      "claim_id": "CLM-000007",
+      "document_type": "claim_form",
+      "path": "data/claim_documents/text/DOC-000007-01.txt",
+      "sha256": "c0ceb0d3857202a8eb591b995e22b33ccf372cf2be4634a12d4712775acd4db9",
+      "verification_status": "unverified",
+      "synthetic": true
+    },
+    {
+      "document_id": "DOC-000007-02",
+      "claim_id": "CLM-000007",
+      "document_type": "medical_certificate",
+      "path": "data/claim_documents/text/DOC-000007-02.txt",
+      "sha256": "ef706053b27115c8243b59e8c907bce836f0e8c20bf454552a92d2e3be54cfeb",
+      "verification_status": "unverified",
+      "synthetic": true
+    }
+  ]
+}

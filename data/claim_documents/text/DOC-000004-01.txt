@@ -1,0 +1,8 @@
+SYNTHETIC ACADEMIC DOCUMENT — NOT A REAL INSURANCE RECORD
+Document: DOC-000004-01
+Type: claim_form
+Claim: CLM-000004
+Policy: POL-LIF-000004
+Incident date: 2026-09-20
+Event: insured_death
+Claimed amount INR: 1000000

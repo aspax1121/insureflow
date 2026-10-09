@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "dataset_id": "INSUREFLOW-DEMO-V1",
+  "as_of_date": "2026-10-01",
+  "records": [
+    {
+      "customer_id": "CUST-000001",
+      "display_name": "Synthetic Customer 001",
+      "synthetic": true
+    },
+    {
+      "customer_id": "CUST-000002",
+      "display_name": "Synthetic Customer 002",
+      "synthetic": true
+    },
+    {
+      "customer_id": "CUST-000003",
+      "display_name": "Synthetic Customer 003",
+      "synthetic": true
+    },
+    {
+      "customer_id": "CUST-000004",
+      "display_name": "Synthetic Customer 004",
+      "synthetic": true
+    },
+    {
+      "customer_id": "CUST-000005",
+      "display_name": "Synthetic Customer 005",
+      "synthetic": true
+    },
+    {
+      "customer_id": "CUST-000006",
+      "display_name": "Synthetic Customer 006",
+      "synthetic": true
+    },
+    {
+      "customer_id": "CUST-000007",
+      "display_name": "Synthetic Customer 007",
+      "synthetic": true
+    }
+  ]
+}

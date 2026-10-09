@@ -1,0 +1,8 @@
+SYNTHETIC ACADEMIC DOCUMENT — NOT A REAL INSURANCE RECORD
+Document: DOC-000007-01
+Type: claim_form
+Claim: CLM-000007
+Policy: POL-PAC-000007
+Incident date: 2026-09-20
+Event: accidental_fracture
+Claimed amount INR: 50000

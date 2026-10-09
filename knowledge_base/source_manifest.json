@@ -1,0 +1,138 @@
+{
+  "manifest_version": 1,
+  "approval_scope": "Synthetic academic fixtures only; not claim verification",
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "path": "data/claim_documents/documents.json",
+      "sha256": "ad09da71f65a16b83b5cf6a9307f5f923a39cf37debcedeb22605a6813c25560",
+      "approved_for": "untrusted_claim_evidence"
+    },
+    {
+      "source_id": "SRC-002",
+      "path": "data/claim_documents/text/DOC-000001-01.txt",
+      "sha256": "fb07cc77f860b1fca09f5263eba6f057dc30d4e31287575463abe773d1eec6b6",
+      "approved_for": "untrusted_claim_evidence"
+    },
+    {
+      "source_id": "SRC-003",
+      "path": "data/claim_documents/text/DOC-000001-02.txt",
+      "sha256": "918d51f0c9b11202c84fef50a48d8b58c8d62617da08cfd0afb443765b878099",
+      "approved_for": "untrusted_claim_evidence"
+    },
+    {
+      "source_id": "SRC-004",
+      "path": "data/claim_documents/text/DOC-000002-01.txt",
+      "sha256": "6ba722bf0c48ae9110e9349fe1c11ad6867d44f1e4b797028c75e1e1b2218e4a",
+      "approved_for": "untrusted_claim_evidence"
+    },
+    {
+      "source_id": "SRC-005",
+      "path": "data/claim_documents/text/DOC-000002-02.txt",
+      "sha256": "6ceb6ff5d71150d79f4dce46f6ffaf37a4cb2b275a22217bedf7c6ef2cf17b9f",
+      "approved_for": "untrusted_claim_evidence"
+    },
+    {
+      "source_id": "SRC-006",
+      "path": "data/claim_documents/text/DOC-000003-01.txt",
+      "sha256": "fd23191b0537f4e863536756b1df2e4f8845f5129e0398b86d37600af545855b",
+      "approved_for": "untrusted_claim_evidence"
+    },
+    {
+      "source_id": "SRC-007",
+      "path": "data/claim_documents/text/DOC-000003-02.txt",
+      "sha256": "60094d4b40d553307fddcd34863013757d4852c628a925d36d6c841e02a403b1",
+      "approved_for": "untrusted_claim_evidence"
+    },
+    {
+      "source_id": "SRC-008",
+      "path": "data/claim_documents/text/DOC-000004-01.txt",
+      "sha256": "962cfc09e7fde6496ba230927c00cb25bd03ecd597845a9b2a9f78015f2422cd",
+      "approved_for": "untrusted_claim_evidence"
+    },
+    {
+      "source_id": "SRC-009",
+      "path": "data/claim_documents/text/DOC-000004-02.txt",
+      "sha256": "1c685b9ea2f5fc636343f37198d360c97ec972ff5d11a222c9f6fb9bb292447b",
+      "approved_for": "untrusted_claim_evidence"
+    },
+    {
+      "source_id": "SRC-010",
+      "path": "data/claim_documents/text/DOC-000005-01.txt",
+      "sha256": "60b79ec49de6f482879ef7fe4fdb30b7c0bdeae58082e3f1497f5dae63db33da",
+      "approved_for": "untrusted_claim_evidence"
+    },
+    {
+      "source_id": "SRC-011",
+      "path": "data/claim_documents/text/DOC-000005-02.txt",
+      "sha256": "1fd404d4afe0bcdad5b9a9886641422895e928ad8b7d1d4cad7c9e5ac8b551f9",
+      "approved_for": "untrusted_claim_evidence"
+    },
+    {
+      "source_id": "SRC-012",
+      "path": "data/claim_documents/text/DOC-000006-01.txt",
+      "sha256": "3cbdceeaef59c0a0bebdf07e4a157b99ec2ada77e3ec0ceab61bcc07d25da6b2",
+      "approved_for": "untrusted_claim_evidence"
+    },
+    {
+      "source_id": "SRC-013",
+      "path": "data/claim_documents/text/DOC-000006-02.txt",
+      "sha256": "354fab2354c22c0513aea4dcedc652c2776365a226469499237751d03b14e60c",
+      "approved_for": "untrusted_claim_evidence"
+    },
+    {
+      "source_id": "SRC-014",
+      "path": "data/claim_documents/text/DOC-000007-01.txt",
+      "sha256": "c0ceb0d3857202a8eb591b995e22b33ccf372cf2be4634a12d4712775acd4db9",
+      "approved_for": "untrusted_claim_evidence"
+    },
+    {
+      "source_id": "SRC-015",
+      "path": "data/claim_documents/text/DOC-000007-02.txt",
+      "sha256": "ef706053b27115c8243b59e8c907bce836f0e8c20bf454552a92d2e3be54cfeb",
+      "approved_for": "untrusted_claim_evidence"
+    },
+    {
+      "source_id": "SRC-016",
+      "path": "data/customers/customers.json",
+      "sha256": "76588a205733457c9afab32b4544d37209e82861b2e47521ed38ea4275f4eb77",
+      "approved_for": "internal_reference"
+    },
+    {
+      "source_id": "SRC-017",
+      "path": "data/demo_claims/claims.json",
+      "sha256": "f8aaace02b46b26b8b629b74001650fc5e56612a62ceb6a00c2a8121903da906",
+      "approved_for": "internal_reference"
+    },
+    {
+      "source_id": "SRC-018",
+      "path": "data/historical_claims/claims.json",
+      "sha256": "a78fa05db7a0d741fff06e350b8e2f5637967712eaf0518257f9e62dfd7a8674",
+      "approved_for": "internal_reference"
+    },
+    {
+      "source_id": "SRC-019",
+      "path": "data/policies/policies.json",
+      "sha256": "e3cf1800e6e6c9195bb6389a986fd7c137aacf38be387f6e22dc3bf849c4985f",
+      "approved_for": "internal_reference"
+    },
+    {
+      "source_id": "SRC-020",
+      "path": "data/rules/anomaly_indicators.json",
+      "sha256": "5011177283788376f98808102383e4217acf6a0a9855e5c0c0f15c10f7267b16",
+      "approved_for": "internal_reference"
+    },
+    {
+      "source_id": "SRC-021",
+      "path": "data/rules/policy_rules.json",
+      "sha256": "5b20dce9e47e113e34ed6a15e98e32900469344d65cb6538a5f1bb6c8b27939e",
+      "approved_for": "internal_reference"
+    },
+    {
+      "source_id": "SRC-022",
+      "path": "data/rules/routing_rules.json",
+      "sha256": "6662dd335becbcb111387a8ab1e8aad2de6b6f344279a89efb0ff7818b145471",
+      "approved_for": "internal_reference"
+    }
+  ]
+}

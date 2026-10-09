@@ -1,0 +1,9 @@
+SYNTHETIC ACADEMIC DOCUMENT — NOT A REAL INSURANCE RECORD
+Document: DOC-000001-02
+Type: repair_estimate
+Claim: CLM-000001
+Policy: POL-MTR-000001
+Incident date: 2026-09-20
+Event: collision
+Claimed amount INR: 25000
+Supported expense INR: 25000

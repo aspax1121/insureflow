@@ -1,0 +1,9 @@
+SYNTHETIC ACADEMIC DOCUMENT — NOT A REAL INSURANCE RECORD
+Document: DOC-000005-02
+Type: carrier_loss_report
+Claim: CLM-000005
+Policy: POL-TRV-000005
+Incident date: 2026-09-20
+Event: baggage_loss
+Claimed amount INR: 10000
+Supported expense INR: 10000

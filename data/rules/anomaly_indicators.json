@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "dataset_id": "INSUREFLOW-DEMO-V1",
+  "as_of_date": "2026-10-01",
+  "records": [
+    {
+      "indicator_id": "RISK-DUP-01",
+      "points": 60,
+      "condition": "Same policy and incident ID as a prior claim",
+      "synthetic": true
+    },
+    {
+      "indicator_id": "RISK-FREQ-01",
+      "points": 25,
+      "condition": "At least 3 earlier claims on the same policy in the 90 days before submission",
+      "synthetic": true
+    },
+    {
+      "indicator_id": "RISK-CONFLICT-01",
+      "points": 35,
+      "condition": "Conflicting incident dates in submitted evidence",
+      "synthetic": true
+    }
+  ]
+}

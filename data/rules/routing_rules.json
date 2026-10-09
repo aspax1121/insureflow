@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "dataset_id": "INSUREFLOW-DEMO-V1",
+  "as_of_date": "2026-10-01",
+  "records": {
+    "rule_id": "ROUTING-V1",
+    "synthetic": true,
+    "minimum_evidence_confidence": 0.9,
+    "stp_risk_max": 19,
+    "investigation_risk_min": 60,
+    "precedence": [
+      "Investigation",
+      "Pending Documents",
+      "Human Review",
+      "Rejected",
+      "STP Approved"
+    ],
+    "notes": "Design contract only. Unresolved contradictions or low confidence block final decisions. Rejection requires verified affirmative exclusion or invalid-policy evidence."
+  }
+}

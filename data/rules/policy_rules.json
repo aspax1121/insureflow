@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "dataset_id": "INSUREFLOW-DEMO-V1",
+  "as_of_date": "2026-10-01",
+  "records": [
+    {
+      "rule_id": "RULE-MTR-V1",
+      "version": 1,
+      "insurance_line": "Motor – Car",
+      "coverage_clause": "MTR-COV-01",
+      "covered_events": [
+        "collision"
+      ],
+      "exclusion_clause": "MTR-EXC-01",
+      "excluded_events": [
+        "mechanical_breakdown"
+      ],
+      "document_clause": "MTR-DOC-01",
+      "required_documents": [
+        "claim_form",
+        "repair_estimate"
+      ],
+      "settlement_clause": "MTR-SET-01",
+      "settlement_mode": "reimbursement",
+      "per_claim_limit_inr": 500000,
+      "deductible_inr": 2000,
+      "fixed_benefit_inr": null,
+      "stp_clause": "MTR-STP-01",
+      "stp_claim_ceiling_inr": 50000,
+      "mandatory_human_review": false,
+      "synthetic": true
+    },
+    {
+      "rule_id": "RULE-BIK-V1",
+      "version": 1,
+      "insurance_line": "Motor – Bike",
+      "coverage_clause": "BIK-COV-01",
+      "covered_events": [
+        "collision"
+      ],
+      "exclusion_clause": "BIK-EXC-01",
+      "excluded_events": [
+        "wear_and_tear"
+      ],
+      "document_clause": "BIK-DOC-01",
+      "required_documents": [
+        "claim_form",
+        "repair_estimate"
+      ],
+      "settlement_clause": "BIK-SET-01",
+      "settlement_mode": "reimbursement",
+      "per_claim_limit_inr": 100000,
+      "deductible_inr": 500,
+      "fixed_benefit_inr": null,
+      "stp_clause": "BIK-STP-01",
+      "stp_claim_ceiling_inr": 15000,
+      "mandatory_human_review": false,
+      "synthetic": true
+    },
+    {
+      "rule_id": "RULE-HLT-V1",
+      "version": 1,
+      "insurance_line": "Health",
+      "coverage_clause": "HLT-COV-01",
+      "covered_events": [
+        "hospitalization"
+      ],
+      "exclusion_clause": "HLT-EXC-01",
+      "excluded_events": [
+        "cosmetic_procedure"
+      ],
+      "document_clause": "HLT-DOC-01",
+      "required_documents": [
+        "claim_form",
+        "hospital_bill"
+      ],
+      "settlement_clause": "HLT-SET-01",
+      "settlement_mode": "reimbursement",
+      "per_claim_limit_inr": 500000,
+      "deductible_inr": 1000,
+      "fixed_benefit_inr": null,
+      "stp_clause": "HLT-STP-01",
+      "stp_claim_ceiling_inr": 40000,
+      "mandatory_human_review": false,
+      "synthetic": true
+    },
+    {
+      "rule_id": "RULE-LIF-V1",
+      "version": 1,
+      "insurance_line": "Life",
+      "coverage_clause": "LIF-COV-01",
+      "covered_events": [
+        "insured_death"
+      ],
+      "exclusion_clause": "LIF-EXC-01",
+      "excluded_events": [
+        "policy_maturity"
+      ],
+      "document_clause": "LIF-DOC-01",
+      "required_documents": [
+        "claim_form",
+        "death_certificate"
+      ],
+      "settlement_clause": "LIF-SET-01",
+      "settlement_mode": "fixed_benefit",
+      "per_claim_limit_inr": 1000000,
+      "deductible_inr": 0,
+      "fixed_benefit_inr": 1000000,
+      "stp_clause": "LIF-STP-01",
+      "stp_claim_ceiling_inr": 0,
+      "mandatory_human_review": true,
+      "synthetic": true
+    },
+    {
+      "rule_id": "RULE-TRV-V1",
+      "version": 1,
+      "insurance_line": "Travel",
+      "coverage_clause": "TRV-COV-01",
+      "covered_events": [
+        "baggage_loss"
+      ],
+      "exclusion_clause": "TRV-EXC-01",
+      "excluded_events": [
+        "change_of_mind"
+      ],
+      "document_clause": "TRV-DOC-01",
+      "required_documents": [
+        "claim_form",
+        "carrier_loss_report"
+      ],
+      "settlement_clause": "TRV-SET-01",
+      "settlement_mode": "reimbursement",
+      "per_claim_limit_inr": 100000,
+      "deductible_inr": 1000,
+      "fixed_benefit_inr": null,
+      "stp_clause": "TRV-STP-01",
+      "stp_claim_ceiling_inr": 20000,
+      "mandatory_human_review": false,
+      "synthetic": true
+    },
+    {
+      "rule_id": "RULE-HOM-V1",
+      "version": 1,
+      "insurance_line": "Home/Property",
+      "coverage_clause": "HOM-COV-01",
+      "covered_events": [
+        "fire_damage"
+      ],
+      "exclusion_clause": "HOM-EXC-01",
+      "excluded_events": [
+        "gradual_deterioration"
+      ],
+      "document_clause": "HOM-DOC-01",
+      "required_documents": [
+        "claim_form",
+        "damage_assessment"
+      ],
+      "settlement_clause": "HOM-SET-01",
+      "settlement_mode": "reimbursement",
+      "per_claim_limit_inr": 2000000,
+      "deductible_inr": 5000,
+      "fixed_benefit_inr": null,
+      "stp_clause": "HOM-STP-01",
+      "stp_claim_ceiling_inr": 75000,
+      "mandatory_human_review": false,
+      "synthetic": true
+    },
+    {
+      "rule_id": "RULE-PAC-V1",
+      "version": 1,
+      "insurance_line": "Personal Accident",
+      "coverage_clause": "PAC-COV-01",
+      "covered_events": [
+        "accidental_fracture"
+      ],
+      "exclusion_clause": "PAC-EXC-01",
+      "excluded_events": [
+        "illness"
+      ],
+      "document_clause": "PAC-DOC-01",
+      "required_documents": [
+        "claim_form",
+        "medical_certificate"
+      ],
+      "settlement_clause": "PAC-SET-01",
+      "settlement_mode": "fixed_benefit",
+      "per_claim_limit_inr": 50000,
+      "deductible_inr": 0,
+      "fixed_benefit_inr": 50000,
+      "stp_clause": "PAC-STP-01",
+      "stp_claim_ceiling_inr": 50000,
+      "mandatory_human_review": false,
+      "synthetic": true
+    }
+  ]
+}
